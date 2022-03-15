@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B26CF427E04D55002D9D0A /* cardano_clockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B26CF327E04D55002D9D0A /* cardano_clockApp.swift */; };
+		84B26CF627E04D55002D9D0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B26CF527E04D55002D9D0A /* ContentView.swift */; };
+		84B26CF827E04D55002D9D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B26CF727E04D55002D9D0A /* Assets.xcassets */; };
+		84B26CFB27E04D55002D9D0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B26CFA27E04D55002D9D0A /* Preview Assets.xcassets */; };
+		84B26D0627E04D56002D9D0A /* cardano_clockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B26D0527E04D56002D9D0A /* cardano_clockTests.swift */; };
+		84B26D1027E04D56002D9D0A /* cardano_clockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B26D0F27E04D56002D9D0A /* cardano_clockUITests.swift */; };
+		84B26D1227E04D56002D9D0A /* cardano_clockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B26D1127E04D56002D9D0A /* cardano_clockUITestsLaunchTests.swift */; };
+		84B26D2527E04E95002D9D0A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B26D2427E04E95002D9D0A /* WidgetKit.framework */; platformFilter = maccatalyst; };
+		84B26D2727E04E95002D9D0A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B26D2627E04E95002D9D0A /* SwiftUI.framework */; platformFilter = maccatalyst; };
+		84B26D2A27E04E95002D9D0A /* widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B26D2927E04E95002D9D0A /* widget.swift */; };
+		84B26D2D27E04E96002D9D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B26D2C27E04E96002D9D0A /* Assets.xcassets */; };
+		84B26D3027E04E96002D9D0A /* widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 84B26D2B27E04E96002D9D0A /* widget.intentdefinition */; };
+		84B26D3127E04E96002D9D0A /* widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 84B26D2B27E04E96002D9D0A /* widget.intentdefinition */; };
+		84B26D3427E04E96002D9D0A /* widgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 84B26D2227E04E95002D9D0A /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B26D0227E04D56002D9D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B26CE827E04D55002D9D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B26CEF27E04D55002D9D0A;
+			remoteInfo = "cardano-clock";
+		};
+		84B26D0C27E04D56002D9D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B26CE827E04D55002D9D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B26CEF27E04D55002D9D0A;
+			remoteInfo = "cardano-clock";
+		};
+		84B26D3227E04E96002D9D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B26CE827E04D55002D9D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B26D2127E04E95002D9D0A;
+			remoteInfo = widgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84B26D3827E04E96002D9D0A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				84B26D3427E04E96002D9D0A /* widgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84B26CF027E04D55002D9D0A /* cardano-clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cardano-clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B26CF327E04D55002D9D0A /* cardano_clockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardano_clockApp.swift; sourceTree = "<group>"; };
+		84B26CF527E04D55002D9D0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84B26CF727E04D55002D9D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B26CFA27E04D55002D9D0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84B26CFC27E04D55002D9D0A /* cardano_clock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cardano_clock.entitlements; sourceTree = "<group>"; };
+		84B26D0127E04D56002D9D0A /* cardano-clockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cardano-clockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B26D0527E04D56002D9D0A /* cardano_clockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardano_clockTests.swift; sourceTree = "<group>"; };
+		84B26D0B27E04D56002D9D0A /* cardano-clockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cardano-clockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B26D0F27E04D56002D9D0A /* cardano_clockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardano_clockUITests.swift; sourceTree = "<group>"; };
+		84B26D1127E04D56002D9D0A /* cardano_clockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardano_clockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84B26D2227E04E95002D9D0A /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B26D2427E04E95002D9D0A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		84B26D2627E04E95002D9D0A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		84B26D2927E04E95002D9D0A /* widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widget.swift; sourceTree = "<group>"; };
+		84B26D2B27E04E96002D9D0A /* widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = widget.intentdefinition; sourceTree = "<group>"; };
+		84B26D2C27E04E96002D9D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B26D2E27E04E96002D9D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B26D2F27E04E96002D9D0A /* widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = widget.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B26CED27E04D55002D9D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B26CFE27E04D56002D9D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B26D0827E04D56002D9D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B26D1F27E04E95002D9D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B26D2727E04E95002D9D0A /* SwiftUI.framework in Frameworks */,
+				84B26D2527E04E95002D9D0A /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B26CE727E04D55002D9D0A = {
+			isa = PBXGroup;
+			children = (
+				84B26CF227E04D55002D9D0A /* cardano-clock */,
+				84B26D0427E04D56002D9D0A /* cardano-clockTests */,
+				84B26D0E27E04D56002D9D0A /* cardano-clockUITests */,
+				84B26D2827E04E95002D9D0A /* widget */,
+				84B26D2327E04E95002D9D0A /* Frameworks */,
+				84B26CF127E04D55002D9D0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B26CF127E04D55002D9D0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B26CF027E04D55002D9D0A /* cardano-clock.app */,
+				84B26D0127E04D56002D9D0A /* cardano-clockTests.xctest */,
+				84B26D0B27E04D56002D9D0A /* cardano-clockUITests.xctest */,
+				84B26D2227E04E95002D9D0A /* widgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B26CF227E04D55002D9D0A /* cardano-clock */ = {
+			isa = PBXGroup;
+			children = (
+				84B26CF327E04D55002D9D0A /* cardano_clockApp.swift */,
+				84B26CF527E04D55002D9D0A /* ContentView.swift */,
+				84B26CF727E04D55002D9D0A /* Assets.xcassets */,
+				84B26CFC27E04D55002D9D0A /* cardano_clock.entitlements */,
+				84B26CF927E04D55002D9D0A /* Preview Content */,
+			);
+			path = "cardano-clock";
+			sourceTree = "<group>";
+		};
+		84B26CF927E04D55002D9D0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84B26CFA27E04D55002D9D0A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84B26D0427E04D56002D9D0A /* cardano-clockTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B26D0527E04D56002D9D0A /* cardano_clockTests.swift */,
+			);
+			path = "cardano-clockTests";
+			sourceTree = "<group>";
+		};
+		84B26D0E27E04D56002D9D0A /* cardano-clockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84B26D0F27E04D56002D9D0A /* cardano_clockUITests.swift */,
+				84B26D1127E04D56002D9D0A /* cardano_clockUITestsLaunchTests.swift */,
+			);
+			path = "cardano-clockUITests";
+			sourceTree = "<group>";
+		};
+		84B26D2327E04E95002D9D0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84B26D2427E04E95002D9D0A /* WidgetKit.framework */,
+				84B26D2627E04E95002D9D0A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84B26D2827E04E95002D9D0A /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				84B26D2927E04E95002D9D0A /* widget.swift */,
+				84B26D2B27E04E96002D9D0A /* widget.intentdefinition */,
+				84B26D2C27E04E96002D9D0A /* Assets.xcassets */,
+				84B26D2E27E04E96002D9D0A /* Info.plist */,
+				84B26D2F27E04E96002D9D0A /* widget.entitlements */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B26CEF27E04D55002D9D0A /* cardano-clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B26D1527E04D56002D9D0A /* Build configuration list for PBXNativeTarget "cardano-clock" */;
+			buildPhases = (
+				84B26CEC27E04D55002D9D0A /* Sources */,
+				84B26CED27E04D55002D9D0A /* Frameworks */,
+				84B26CEE27E04D55002D9D0A /* Resources */,
+				84B26D3827E04E96002D9D0A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B26D3327E04E96002D9D0A /* PBXTargetDependency */,
+			);
+			name = "cardano-clock";
+			productName = "cardano-clock";
+			productReference = 84B26CF027E04D55002D9D0A /* cardano-clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B26D0027E04D56002D9D0A /* cardano-clockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B26D1827E04D56002D9D0A /* Build configuration list for PBXNativeTarget "cardano-clockTests" */;
+			buildPhases = (
+				84B26CFD27E04D56002D9D0A /* Sources */,
+				84B26CFE27E04D56002D9D0A /* Frameworks */,
+				84B26CFF27E04D56002D9D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B26D0327E04D56002D9D0A /* PBXTargetDependency */,
+			);
+			name = "cardano-clockTests";
+			productName = "cardano-clockTests";
+			productReference = 84B26D0127E04D56002D9D0A /* cardano-clockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84B26D0A27E04D56002D9D0A /* cardano-clockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B26D1B27E04D56002D9D0A /* Build configuration list for PBXNativeTarget "cardano-clockUITests" */;
+			buildPhases = (
+				84B26D0727E04D56002D9D0A /* Sources */,
+				84B26D0827E04D56002D9D0A /* Frameworks */,
+				84B26D0927E04D56002D9D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B26D0D27E04D56002D9D0A /* PBXTargetDependency */,
+			);
+			name = "cardano-clockUITests";
+			productName = "cardano-clockUITests";
+			productReference = 84B26D0B27E04D56002D9D0A /* cardano-clockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		84B26D2127E04E95002D9D0A /* widgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B26D3527E04E96002D9D0A /* Build configuration list for PBXNativeTarget "widgetExtension" */;
+			buildPhases = (
+				84B26D1E27E04E95002D9D0A /* Sources */,
+				84B26D1F27E04E95002D9D0A /* Frameworks */,
+				84B26D2027E04E95002D9D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widgetExtension;
+			productName = widgetExtension;
+			productReference = 84B26D2227E04E95002D9D0A /* widgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B26CE827E04D55002D9D0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					84B26CEF27E04D55002D9D0A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					84B26D0027E04D56002D9D0A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 84B26CEF27E04D55002D9D0A;
+					};
+					84B26D0A27E04D56002D9D0A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 84B26CEF27E04D55002D9D0A;
+					};
+					84B26D2127E04E95002D9D0A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 84B26CEB27E04D55002D9D0A /* Build configuration list for PBXProject "cardano-clock" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B26CE727E04D55002D9D0A;
+			productRefGroup = 84B26CF127E04D55002D9D0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B26CEF27E04D55002D9D0A /* cardano-clock */,
+				84B26D0027E04D56002D9D0A /* cardano-clockTests */,
+				84B26D0A27E04D56002D9D0A /* cardano-clockUITests */,
+				84B26D2127E04E95002D9D0A /* widgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B26CEE27E04D55002D9D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B26CFB27E04D55002D9D0A /* Preview Assets.xcassets in Resources */,
+				84B26CF827E04D55002D9D0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B26CFF27E04D56002D9D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B26D0927E04D56002D9D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B26D2027E04E95002D9D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B26D2D27E04E96002D9D0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B26CEC27E04D55002D9D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B26D3127E04E96002D9D0A /* widget.intentdefinition in Sources */,
+				84B26CF627E04D55002D9D0A /* ContentView.swift in Sources */,
+				84B26CF427E04D55002D9D0A /* cardano_clockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B26CFD27E04D56002D9D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B26D0627E04D56002D9D0A /* cardano_clockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B26D0727E04D56002D9D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B26D1227E04D56002D9D0A /* cardano_clockUITestsLaunchTests.swift in Sources */,
+				84B26D1027E04D56002D9D0A /* cardano_clockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B26D1E27E04E95002D9D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B26D3027E04E96002D9D0A /* widget.intentdefinition in Sources */,
+				84B26D2A27E04E95002D9D0A /* widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B26D0327E04D56002D9D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B26CEF27E04D55002D9D0A /* cardano-clock */;
+			targetProxy = 84B26D0227E04D56002D9D0A /* PBXContainerItemProxy */;
+		};
+		84B26D0D27E04D56002D9D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B26CEF27E04D55002D9D0A /* cardano-clock */;
+			targetProxy = 84B26D0C27E04D56002D9D0A /* PBXContainerItemProxy */;
+		};
+		84B26D3327E04E96002D9D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B26D2127E04E95002D9D0A /* widgetExtension */;
+			targetProxy = 84B26D3227E04E96002D9D0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84B26D1327E04D56002D9D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84B26D1427E04D56002D9D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		84B26D1627E04D56002D9D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "cardano-clock/cardano_clock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cardano-clock/Preview Content\"";
+				DEVELOPMENT_TEAM = HHR3BVR65D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kramer.cardano-clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		84B26D1727E04D56002D9D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "cardano-clock/cardano_clock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cardano-clock/Preview Content\"";
+				DEVELOPMENT_TEAM = HHR3BVR65D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kramer.cardano-clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		84B26D1927E04D56002D9D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHR3BVR65D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kramer.cardano-clockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardano-clock.app/Contents/MacOS/cardano-clock";
+			};
+			name = Debug;
+		};
+		84B26D1A27E04D56002D9D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHR3BVR65D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kramer.cardano-clockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardano-clock.app/Contents/MacOS/cardano-clock";
+			};
+			name = Release;
+		};
+		84B26D1C27E04D56002D9D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHR3BVR65D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kramer.cardano-clockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "cardano-clock";
+			};
+			name = Debug;
+		};
+		84B26D1D27E04D56002D9D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHR3BVR65D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kramer.cardano-clockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "cardano-clock";
+			};
+			name = Release;
+		};
+		84B26D3627E04E96002D9D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = widget/widget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHR3BVR65D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cardano Clock";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "MIT License\n\nCopyright (c) 2022 Nolan Kramer\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kramer.cardano-clock.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		84B26D3727E04E96002D9D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = widget/widget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHR3BVR65D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cardano Clock";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "MIT License\n\nCopyright (c) 2022 Nolan Kramer\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kramer.cardano-clock.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B26CEB27E04D55002D9D0A /* Build configuration list for PBXProject "cardano-clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B26D1327E04D56002D9D0A /* Debug */,
+				84B26D1427E04D56002D9D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B26D1527E04D56002D9D0A /* Build configuration list for PBXNativeTarget "cardano-clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B26D1627E04D56002D9D0A /* Debug */,
+				84B26D1727E04D56002D9D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B26D1827E04D56002D9D0A /* Build configuration list for PBXNativeTarget "cardano-clockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B26D1927E04D56002D9D0A /* Debug */,
+				84B26D1A27E04D56002D9D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B26D1B27E04D56002D9D0A /* Build configuration list for PBXNativeTarget "cardano-clockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B26D1C27E04D56002D9D0A /* Debug */,
+				84B26D1D27E04D56002D9D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B26D3527E04E96002D9D0A /* Build configuration list for PBXNativeTarget "widgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B26D3627E04E96002D9D0A /* Debug */,
+				84B26D3727E04E96002D9D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B26CE827E04D55002D9D0A /* Project object */;
+}
